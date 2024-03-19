@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+}
+canvas {
+  background: #eee;
+  display: block;
+  margin: 0 auto;
+}
+#myCanvas {
+  margin-top: 65px;
+  background-image: url(game.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 8px;
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+}
+.text {
+  font-size: 40px;
+  color: #fff;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #000;
+  font-weight: 1000;
+  text-align: center;
+  margin-top: 50px;
+}
+span {
+  color: #ffe500;
+}
